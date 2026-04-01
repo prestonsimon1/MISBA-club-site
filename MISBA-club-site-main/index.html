@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UMD Duluth MIS & Business Analytics Club — events, projects, and community for students, faculty, and employers.">
+    <title>MISBA Club | University of Minnesota Duluth</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar" aria-label="Primary">
+        <div class="nav-container">
+            <a href="#home" class="logo">MIS<span>BA</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#board">Board</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#showcase">Showcase</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-social" aria-hidden="true">
+                <a href="https://www.linkedin.com/in/mis-ba-duluth/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/misbac_umd?igsh=MTRkMTVzYm5iMDFwYw==" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <button type="button" class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </button>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">University of Minnesota Duluth</p>
+            <h1>Management Information Systems <br>&amp; <span class="highlight">Business Analytics</span> Club</h1>
+            <p class="hero-lead">Build skills, grow your network, and show employers what you can do—together with students who care about tech and business.</p>
+            <div class="hero-btns">
+                <a href="#join" class="btn-primary">Join the Club</a>
+                <a href="#events" class="btn-secondary">RSVP for Events</a>
+                <a href="#socials" class="btn-ghost">Follow Us</a>
+            </div>
+            <div class="hero-stats" role="presentation">
+                <div><strong>Students</strong><span>All majors welcome</span></div>
+                <div><strong>Employers</strong><span>Portfolio &amp; projects</span></div>
+                <div><strong>Campus</strong><span>Workshops &amp; speakers</span></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="socials" class="social-strip" aria-label="Club social media">
+        <div class="container social-strip-inner">
+            <span class="social-strip-label">Connect with MISBA</span>
+            <div class="social-strip-links">
+                <a class="social-pill" href="mailto:DuluthMISBA@gmail.com"><i class="fas fa-envelope"></i> DuluthMISBA@gmail.com</a>
+                <a class="social-pill" href="https://www.linkedin.com/in/mis-ba-duluth/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                <a class="social-pill" href="https://www.instagram.com/misbac_umd?igsh=MTRkMTVzYm5iMDFwYw==" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Our mission</h3>
+                    <p>We help Bulldogs explore careers at the intersection of business, data, and technology—through workshops, employer connections, and hands-on projects you can put on your resume.</p>
+                    <h3>What MIS &amp; Business Analytics majors do</h3>
+                    <p>MIS focuses on how organizations use technology and information systems to solve problems. Business Analytics emphasizes data, modeling, and visualization to support decisions. Both paths blend communication, technical fluency, and business judgment—skills recruiters actively seek.</p>
+                    <h3>Why join</h3>
+                    <ul class="about-list">
+                        <li>Meet peers, alumni, and employers in a supportive club environment</li>
+                        <li>Practice tools like SQL, spreadsheets, BI platforms, and presentation skills</li>
+                        <li>Highlight projects and leadership on your resume and LinkedIn</li>
+                    </ul>
+                </div>
+                <div class="about-aside">
+                    <figure class="about-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80" alt="Team collaborating with charts and laptops" width="600" height="400" loading="lazy">
+                    </figure>
+                    <div class="about-card">
+                        <h4>For faculty &amp; partners</h4>
+                        <p>We welcome guest speakers, project sponsors, and alumni who want to mentor or recruit. Reach us through the contact form below.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="board" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Executive Board</h2>
+            <p class="section-intro">Current student leadership — update names and photos in <code>data.js</code> each year.</p>
+            <div class="card-grid" id="board-grid"></div>
+        </div>
+    </section>
+
+    <section id="events" class="section section-events">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <p class="section-intro">Meetings, workshops, and speakers — dates and rooms are maintained in <code>data.js</code>.</p>
+            <div class="events-container" id="events-container"></div>
+            <p class="events-rsvp-hint">Use <strong>RSVP for Events</strong> below to sign up; include the event name in your message.</p>
+        </div>
+    </section>
+
+    <section id="showcase" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Project Showcase &amp; Past Events</h2>
+            <p class="section-intro">Highlights from recent semesters—replace text and images in <code>data.js</code> as you add new wins.</p>
+            <div class="showcase-grid" id="showcase-grid"></div>
+        </div>
+    </section>
+
+    <section id="resources" class="section">
+        <div class="container">
+            <h2 class="section-title">Member Resources</h2>
+            <p class="section-intro">Handy links for practice and career prep (edit in <code>index.html</code> as needed).</p>
+            <div class="resource-grid">
+                <a href="https://sqlzoo.net/" class="resource-link" target="_blank" rel="noopener noreferrer">SQL practice — SQLZoo</a>
+                <a href="https://public.tableau.com/app/learn" class="resource-link" target="_blank" rel="noopener noreferrer">Tableau learning</a>
+                <a href="https://www.python.org/about/gettingstarted/" class="resource-link" target="_blank" rel="noopener noreferrer">Python getting started</a>
+                <a href="https://careers.d.umn.edu/" class="resource-link" target="_blank" rel="noopener noreferrer">UMD Career Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-dark contact-section">
+        <div class="container">
+            <h2 class="section-title white">Contact &amp; Forms</h2>
+            <p class="section-intro light">Submissions are emailed to <a href="mailto:DuluthMISBA@gmail.com">DuluthMISBA@gmail.com</a> via FormSubmit (first submission activates the address).</p>
+
+            <div class="forms-grid">
+                <div class="form-panel" id="join">
+                    <h3><i class="fas fa-user-plus"></i> Join the Club</h3>
+                    <p class="form-panel-desc">Prospective members: tell us about yourself and how to reach you.</p>
+                    <form class="club-form" action="https://formsubmit.co/DuluthMISBA@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="[MISBA] Join the Club">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        <div class="form-group">
+                            <label for="join-name">Full name</label>
+                            <input type="text" id="join-name" name="name" placeholder="Your name" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="join-email">Email</label>
+                            <input type="email" id="join-email" name="email" placeholder="you@d.umn.edu" required autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="join-year">Year / program</label>
+                            <input type="text" id="join-year" name="year_or_program" placeholder="e.g. Junior, MIS major">
+                        </div>
+                        <div class="form-group">
+                            <label for="join-interests">Interests &amp; goals</label>
+                            <textarea id="join-interests" name="interests" rows="4" placeholder="What do you want from the club?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-block">Submit interest</button>
+                    </form>
+                </div>
+
+                <div class="form-panel" id="rsvp">
+                    <h3><i class="fas fa-calendar-check"></i> RSVP for Events</h3>
+                    <p class="form-panel-desc">Pick an upcoming event and we will confirm details by email when possible.</p>
+                    <form class="club-form" action="https://formsubmit.co/DuluthMISBA@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="[MISBA] Event RSVP">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        <div class="form-group">
+                            <label for="rsvp-name">Full name</label>
+                            <input type="text" id="rsvp-name" name="name" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="rsvp-email">Email</label>
+                            <input type="email" id="rsvp-email" name="email" required autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="rsvp-event">Event</label>
+                            <select id="rsvp-event" name="event" required></select>
+                        </div>
+                        <div class="form-group">
+                            <label for="rsvp-notes">Notes (dietary, accessibility, +1)</label>
+                            <textarea id="rsvp-notes" name="notes" rows="3" placeholder="Optional"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-block">Send RSVP</button>
+                    </form>
+                </div>
+
+                <div class="form-panel" id="inquiry">
+                    <h3><i class="fas fa-envelope-open-text"></i> Contact the Board</h3>
+                    <p class="form-panel-desc">General questions, partnerships, or speaking opportunities.</p>
+                    <form class="club-form" action="https://formsubmit.co/DuluthMISBA@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="[MISBA] General inquiry">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+                        <div class="form-group">
+                            <label for="inq-name">Full name</label>
+                            <input type="text" id="inq-name" name="name" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inq-email">Email</label>
+                            <input type="email" id="inq-email" name="email" required autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="inq-topic">Topic</label>
+                            <select id="inq-topic" name="topic">
+                                <option value="General">General question</option>
+                                <option value="Speaking">Guest speaking / panel</option>
+                                <option value="Sponsorship">Sponsorship or collaboration</option>
+                                <option value="Faculty">Faculty / staff</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="inq-message">Message</label>
+                            <textarea id="inq-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-block">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo footer-logo">MIS<span>BA</span></span>
+                <p>University of Minnesota Duluth — LSBE</p>
+            </div>
+            <p class="footer-copy">&copy; <span id="year"></span> MISBA Club. Not an official university publication.</p>
+            <div class="footer-socials">
+                <a href="mailto:DuluthMISBA@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/mis-ba-duluth/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/misbac_umd?igsh=MTRkMTVzYm5iMDFwYw==" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/prestonsimon1/MISBA-club-site" target="_blank" rel="noopener noreferrer" title="Site repository"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
