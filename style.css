@@ -1,0 +1,235 @@
+/* --- Root Variables (UMD Theme) --- */
+:root {
+    --umd-maroon: #810541;
+    --umd-gold: #FFCC33;
+    --dark-grey: #1a1a1a;
+    --light-grey: #f4f4f4;
+    --white: #ffffff;
+    --glass: rgba(255, 255, 255, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* --- Layout --- */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: var(--umd-gold);
+    margin: 10px auto;
+}
+
+.bg-light { background-color: var(--light-grey); }
+.bg-dark { background-color: var(--dark-grey); color: var(--white); }
+.white { color: var(--white); }
+
+/* --- Navigation --- */
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: var(--transition);
+    padding: 20px 0;
+}
+
+#navbar.scrolled {
+    background: rgba(129, 5, 65, 0.9); /* Maroon Glassmorphism */
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--white);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.logo span { color: var(--umd-gold); }
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.nav-links li a:hover { color: var(--umd-gold); }
+
+/* --- Hero Section --- */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero h1 { font-size: 4rem; line-height: 1.2; margin-bottom: 20px; }
+.highlight { color: var(--umd-gold); }
+
+/* --- Buttons --- */
+.btn-primary {
+    background: var(--umd-maroon);
+    color: var(--white);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: var(--transition);
+}
+
+.btn-primary:hover {
+    background: #a00652;
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    border: 2px solid var(--white);
+    color: var(--white);
+    padding: 10px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    transition: var(--transition);
+}
+
+.btn-secondary:hover {
+    background: var(--white);
+    color: var(--umd-maroon);
+}
+
+/* --- Cards & Grid --- */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.board-card {
+    background: var(--white);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.board-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--umd-gold);
+    margin-bottom: 15px;
+}
+
+.event-card.glass {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    padding: 30px;
+    border-radius: 15px;
+    align-items: center;
+    border-left: 10px solid var(--umd-maroon);
+}
+
+.event-date {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-right: 30px;
+    color: var(--umd-maroon);
+}
+
+/* --- Form --- */
+.contact-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: 600; }
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* --- Mobile Responsive --- */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide for JS Toggle */
+    }
+    .hero h1 { font-size: 2.5rem; }
+    .nav-active {
+        display: flex !important;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--umd-maroon);
+        padding: 20px;
+    }
+}
