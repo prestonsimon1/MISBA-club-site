@@ -7,47 +7,46 @@
  */
 window.MISBA_DATA = {
   board: [
-    {
+{
       name: "Abdelrahman Elkenawy",
       role: "Advisor",
-      photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
-      linkedin: "https://www.linkedin.com/in/abdelrahman-elkenawy/",
+      photo: "MIS Company Project Pictures/1741813043687.jpeg",
+      linkedin: "https://www.linkedin.com/in/mis-ba-duluth/",
     },
     {
       name: "Sara Carlson",
       role: "General Officer",
-      photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
-      linkedin: "https://www.linkedin.com/in/mis-ba-duluth/",
+      photo: "MIS Company Project Pictures/1770012639872.jpeg",
+      linkedin: "https://www.linkedin.com/in/sara-carlson-7414652b5/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLOLWVadhTiOeihh9f%2B2JgA%3D%3D",
     },
     {
       name: "Jacob Smith",
       role: "General Coordinator",
-      photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
-      linkedin: "",
+      photo: "MIS Company Project Pictures/1769125161199.jpeg",
+      linkedin: "https://www.linkedin.com/in/jacob-smith2005/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHism%2FiEvRqqaiKE81DMzbw%3D%3D",
     },
     {
       name: "Haley Patel",
       role: "Vice-President",
-      photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80",
-      linkedin: "",
+      photo: "MIS Company Project Pictures/1709846983813.jpeg",
+      linkedin: "https://www.linkedin.com/in/-haleypatel/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BGl8ZTY8cSA6tTHclOVj6bQ%3D%3D#",
     },
     {
       name: "John Harms",
       role: "President",
-      photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
-      linkedin: "",
+      photo: "MIS Company Project Pictures/1756221727958.png",
+      linkedin: "https://www.linkedin.com/in/john-harms-564533287/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BU9M1UPxSR2ehjBDCWu4zSQ%3D%3D",
     },
      {
       name: "Seung Lee",
       role: "Advisor",
-      photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
-      linkedin: "",
+      photo: "MIS Company Project Pictures/slee.jpg.avif",
     },
      {
       name: "Nik Hassan",
       role: "Advisor",
-      photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
-      linkedin: "",
+      photo: "MIS Company Project Pictures/1516534654665.jpeg",
+      linkedin: "https://www.linkedin.com/in/nikrushdi/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BHx5SAQz7SsemIR1TX8zqqg%3D%3D#",
     },
   ],
 
