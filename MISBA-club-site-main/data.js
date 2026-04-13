@@ -52,31 +52,13 @@ window.MISBA_DATA = {
 
   events: [
     {
-      id: "evt-sql-2026",
-      title: "SQL Workshop: Intro to Databases",
-      date: "2026-04-16",
-      time: "5:30 PM – 7:00 PM",
-      location: "LSBE Lab (TBD)",
+      id: "evt-Sharktank-2026",
+      title: "MIS/BA's AI Shark Tank Competition!",
+      date: "2026-04-14",
+      time: "4:00 PM – 6:00 PM",
+      location: "Griggs Center(TBD)",
       description:
-        "Hands-on intro to querying data. Bring your laptop; pizza provided for RSVPs.",
-    },
-    {
-      id: "evt-guest-2026",
-      title: "Industry Panel: Analytics & IT Careers",
-      date: "2026-04-23",
-      time: "6:00 PM – 7:30 PM",
-      location: "UMD Duluth (room TBA)",
-      description:
-        "Alumni and local professionals share paths in MIS, analytics, and tech consulting.",
-    },
-    {
-      id: "evt-tableau-2026",
-      title: "Tableau Visualization Night",
-      date: "2026-05-07",
-      time: "5:00 PM – 6:30 PM",
-      location: "LSBE Computer Lab",
-      description:
-        "Build a dashboard from a sample dataset—great for your portfolio.",
+        "Build an App. Compete in Teams. Win Prizes.",
     },
   ],
 
