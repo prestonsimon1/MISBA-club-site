@@ -56,7 +56,7 @@ window.MISBA_DATA = {
       title: "MIS/BA's AI Shark Tank Competition!",
       date: "2026-04-14",
       time: "4:00 PM – 6:00 PM",
-      location: "Griggs Center(TBD)",
+      location: "Griggs Center",
       description:
         "Build an App. Compete in Teams. Win Prizes.",
     },
