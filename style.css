@@ -222,7 +222,7 @@ body {
     padding: 6rem 1.5rem 4rem;
     background:
         linear-gradient(120deg, rgba(18, 20, 26, 0.88) 0%, rgba(90, 0, 40, 0.75) 50%, rgba(18, 20, 26, 0.9) 100%),
-        url("") center/cover no-repeat;
+        url("MISBA Logo.jpg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
