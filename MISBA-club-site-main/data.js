@@ -52,13 +52,13 @@ window.MISBA_DATA = {
 
   events: [
     {
-      id: "evt-Sharktank-2026",
-      title: "MIS/BA's AI Shark Tank Competition!",
-      date: "2026-04-14",
-      time: "4:00 PM – 6:00 PM",
-      location: "Griggs Center",
+      id: "evt-Social-2026",
+      title: "End of Year Social",
+      date: "2026-24-14",
+      time: "5:00 PM – 6:00 PM",
+      location: "Tavern on the Hill",
       description:
-        "Build an App. Compete in Teams. Win Prizes.",
+        "Join us for a complimentary dinner at the Tavern.",
     },
   ],
 
