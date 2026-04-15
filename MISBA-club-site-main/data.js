@@ -54,7 +54,7 @@ window.MISBA_DATA = {
     {
       id: "evt-Social-2026",
       title: "End of Year Social",
-      date: "2026-24-14",
+      date: "2026-04-24",
       time: "5:00 PM – 6:00 PM",
       location: "Tavern on the Hill",
       description:
