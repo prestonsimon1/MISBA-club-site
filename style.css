@@ -217,12 +217,17 @@ body {
 }
 
 /* --- Hero --- */
+/* Main hero background — image: MIS Company Project Pictures/MISBA Logo.jpg */
 .hero {
     min-height: 100vh;
     padding: 6rem 1.5rem 4rem;
-    background:
-        linear-gradient(120deg, rgba(18, 20, 26, 0.88) 0%, rgba(90, 0, 40, 0.75) 50%, rgba(18, 20, 26, 0.9) 100%),
-        url("MIS Company Project Pictures/MISBA Logo.jpg") center/cover no-repeat;
+    background-color: var(--dark-soft);
+    background-image:
+        linear-gradient(120deg, rgba(18, 20, 26, 0.82) 0%, rgba(90, 0, 40, 0.7) 50%, rgba(18, 20, 26, 0.88) 100%),
+        url("MIS Company Project Pictures/MISBA Logo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
