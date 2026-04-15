@@ -11,7 +11,7 @@ window.MISBA_DATA = {
       name: "Abdelrahman Elkenawy",
       role: "Advisor",
       photo: "MIS Company Project Pictures/1741813043687.jpeg",
-      linkedin: "https://www.linkedin.com/in/mis-ba-duluth/",
+      linkedin: "https://www.linkedin.com/in/abdelrahman-elkenawy/",
     },
     {
       name: "Sara Carlson",
